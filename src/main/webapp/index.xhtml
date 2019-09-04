@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h2>HELLO and welcome to our fortune telling machine! Enter your information below!</h2><br/>
+            <h2>And see what lies in store for you!</h2><br/>
+            <hr />
+            
+            <h:outputText value ="Name: "></h:outputText>
+            <h:inputText value ="#{person.namn}" required="true"></h:inputText><br/>
+            
+            <h:outputText value ="Age: "></h:outputText>
+            <h:inputText value ="#{person.alder}" required="true"></h:inputText><br/>
+            
+            <h:outputText value ="Occupation: "></h:outputText>
+            <h:inputText value ="#{person.jobb}" required="true"></h:inputText><br/>
+            
+            
+            <h:selectOneRadio value = "#{person.kon}" required="true" >
+                <h:outputText value ="Gender: "></h:outputText>
+                <f:selectItem itemValue="man" itemLabel="man"/>
+                <f:selectItem itemValue="woman" itemLabel="woman"/>
+                <f:selectItem itemValue="horse" itemLabel="horse"/>
+            </h:selectOneRadio>	
+            
+            <h:commandButton value = "Submit" action="#{person.generateMessage()}"></h:commandButton><br/>
+            
+            <h:outputLabel value ="#{person.message}" ></h:outputLabel>
+        </h:form>
+    </h:body>
+</html>
+

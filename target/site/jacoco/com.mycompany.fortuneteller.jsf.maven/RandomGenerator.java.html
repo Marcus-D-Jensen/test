@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>RandomGenerator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">fortuneteller-jsf-maven</a> &gt; <a href="index.source.html" class="el_package">com.mycompany.fortuneteller.jsf.maven</a> &gt; <span class="el_source">RandomGenerator.java</span></div><h1>RandomGenerator.java</h1><pre class="source lang-java linenums">package com.mycompany.fortuneteller.jsf.maven;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+/**
+ *
+ * @author marcu
+ * aer awesome
+ */
+
+
+<span class="nc" id="L14">public class RandomGenerator {</span>
+    
+    //This is how many questions there are on the form
+<span class="nc" id="L17">    private int antalFaktorer = 4;</span>
+    
+    //completely random number between 1 and 100
+    private int randomNumber;
+    
+    //this method decides which answer on the form that should be considered
+    public int whatFactorToConsider(){
+<span class="nc" id="L24">        int a = (int)(Math.random()*antalFaktorer);</span>
+<span class="nc" id="L25">        return a;</span>
+    }
+    
+    public int getOneRandomNumber(){
+<span class="nc" id="L29">        int a = (int)(Math.random()*100)+1;</span>
+<span class="nc" id="L30">        return a;</span>
+    }
+    
+    public int[] getTwoRandomNumbers(){
+<span class="nc" id="L34">        int[] a = new int[2];</span>
+<span class="nc" id="L35">        a[0] = (int)(Math.random()*100)+1;</span>
+<span class="nc" id="L36">        a[1] = (int)(Math.random()*100)+1;</span>
+<span class="nc" id="L37">        return a;</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.7.201606060606</span></div></body></html>
