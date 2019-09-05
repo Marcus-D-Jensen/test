@@ -1,1 +1,3 @@
-/home/cpt_moose/Desktop/test/trying-jenkinsfile/src/test/java/com/mycompany/calculator/jsf/maven/personTest.java
+/home/cpt_moose/Desktop/test/trying-jenkinsfile/src/test/java/com/mycompany/fortuneteller/jsf/maven/testPerson.java
+/home/cpt_moose/Desktop/test/trying-jenkinsfile/src/test/java/com/mycompany/fortuneteller/jsf/maven/testTranslator.java
+/home/cpt_moose/Desktop/test/trying-jenkinsfile/src/test/java/com/mycompany/fortuneteller/jsf/maven/testRandomGenerator.java

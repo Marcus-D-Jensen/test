@@ -1,4 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-fortuneteller-jsf-maven,com.mycompany.fortuneteller.jsf.maven,Translator,146,0,31,0,46,0,24,0,7,0
-fortuneteller-jsf-maven,com.mycompany.fortuneteller.jsf.maven,RandomGenerator,47,0,0,0,10,0,4,0,4,0
-fortuneteller-jsf-maven,com.mycompany.fortuneteller.jsf.maven,Person,60,0,0,0,22,0,12,0,12,0

@@ -63,9 +63,8 @@ public class Translator {
          return "Ett ordentligt namn!";
      else if (person.getNamn().contains("a"))
          return "Ja det ar ju ocksa ett okej namn";
-     else if(!person.getNamn().contains("a"))
+     else
          return "Njea det namnet godkanner vi inte riktigt.";
-     return "";
     }
     
 
@@ -99,7 +98,7 @@ public class Translator {
         else if(person.getJobb().contains("a"))
             return "Hoppas ditt jobb gar bra!";
         else
-            return "";
+            return "Konstigt jobb det dar?";
     }
 
 }

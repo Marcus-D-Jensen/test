@@ -1,1 +1,3 @@
-com/mycompany/calculator/jsf/maven/personTest.class
+com/mycompany/fortuneteller/jsf/maven/testPerson.class
+com/mycompany/fortuneteller/jsf/maven/testRandomGenerator.class
+com/mycompany/fortuneteller/jsf/maven/testTranslator.class
